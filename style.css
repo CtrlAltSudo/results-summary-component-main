@@ -20,7 +20,7 @@ body, .p, p, h2 {
     text-align: center;
     padding: 2.3rem;
     border-radius: 1.5rem;
-    max-width: 23rem;
+    max-width: 20rem;
     height: 24rem;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,8 @@ body, .p, p, h2 {
 .childCh1 {
     font-size: 1.3rem;
     font-family: 'Hanken Grotesk', sans-serif;
-
+    font-weight: 400;
+    opacity: 0.5;
 } 
 .childContainer1H2 {
     font-family: 'Hanken Grotesk', sans-serif;
@@ -65,34 +66,45 @@ body, .p, p, h2 {
     font-weight: 300;
 }
 .childC1p {
-    padding: 0 2rem 0 2rem;
+    padding: 0 1.5rem 0 1.5rem;
 } 
 .sumContainer {
+    display: flex;
+    justify-content: space-between;
     border-radius: 0.3rem;
     padding: 0.5rem;
     font-family: 'Hanken Grotesk', sans-serif;
 }
-
+.sumScore {
+    flex-basis: ;
+}
+span {
+    color: black;
+}
+.sumContainerItem {
+    display: flex;
+    gap: 10px;
+}
 .sumContainer.one {
     border: solid 1px #fef6f5;
     background-color: #fef6f5;
-    color: #f8b0a6 
-
+    color: #ff5f5f;
+    display: flex;
 }
 .sumContainer.two {
     border: solid 1px #fffbf2;
     background-color: #fffbf2;
-    color: #ffd77c;
+    color: #ffbf42;
 }
 .sumContainer.three {
     border: solid 1px #F2FBFA;
     background-color: #F2FBFA;
-    color: #98dfd7
+    color: #1fc39d
 }
 .sumContainer.four {
     border: solid 1px #f3f3fd;
     background-color: #f3f3fd;
-    color: #8e8eec;
+    color: #1125d6;
 }
 .sumContainer.h1 {
     text-align: left;
