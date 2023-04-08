@@ -129,4 +129,13 @@ button {
   .mainContainer {
     flex-direction: column;
   }
+  #Container {
+    height: auto;
+  }
+  .childContainer1 {
+    border-radius: 0 0 1.5rem 1.5rem ;
+  }
+  .attribution {
+    margin-top: 1rem;
+  }
 }
